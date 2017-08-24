@@ -34,8 +34,6 @@ class LoginViewController: UIViewController {
     
     // MARK: - Properties
     
-    let loader = DataLoader()
-    
     override var prefersStatusBarHidden: Bool {
         return true
     }
