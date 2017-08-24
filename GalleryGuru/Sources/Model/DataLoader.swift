@@ -104,16 +104,3 @@ class DataLoader {
     }
     
 }
-
-extension Date {
-
-    static func from(dateString: String?) -> Date? {
-        guard let dateString = dateString else {
-            return nil
-        }
-        let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "yyyy-MM-dd'T'hh:mm:ss'Z'"
-        return dateFormatter.date(from: dateString)
-    }
-    
-}
